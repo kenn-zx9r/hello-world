@@ -11,24 +11,25 @@
 
 5/16 21:00
 5/17 20:45
-5/18 (‘ãX–Ø -11:30) 21:00
-5/19 (–å’‡   -11:30) 21:50
+5/18 (ä»£ã€…æœ¨ -11:30) 21:00
+5/19 (é–€ä»²   -11:30) 21:50
 5/20 18:00
 
-5/23 (•iì 13:00-)
+5/23 (å“å· 13:00-)
 5/24 20:30
 5/25 21:00
 5/26 21:00
 5/27 21:00
 
 5/30 20:30
+5/31 21:30
 
-5Œ‚©‚ç‚ÌƒI[ƒ_No
+5æœˆã‹ã‚‰ã®ã‚ªãƒ¼ãƒ€No
 S6016461X0
 
 
-M,UTˆÈ~‚ÍˆêŠ‡‚Ìˆµ‚¢‚ÅH”Œvã‚¹‚æ
-SS1‚Ü‚Å‚ÍSES‚Ìˆê——‚ÉŒvã
+M,UTä»¥é™ã¯ä¸€æ‹¬ã®æ‰±ã„ã§å·¥æ•°è¨ˆä¸Šã›ã‚ˆ
+SS1ã¾ã§ã¯SESã®ä¸€è¦§ã«è¨ˆä¸Š
 
 
 
@@ -36,19 +37,31 @@ SS1‚Ü‚Å‚ÍSES‚Ìˆê——‚ÉŒvã
 
 
 
-‹¤’Ê‹@”\ŒŸ“¢‚µ‚½ÀÑ
+å…±é€šæ©Ÿèƒ½æ¤œè¨ã—ãŸå®Ÿç¸¾
 4/25 3h
 4/26 3h
 
 58ks
-1339l“ú
+1339äººæ—¥
 
 
 $.get("http://10.253.240.27:9080/BusinessPlatform/assets/pc/js/dataset/AddressResource/address2.json?id=0&password=123456789")
 $.get("http://10.253.240.27:9080/BusinessPlatform/assets/pc/js/dataset/ChartDataResource/learn-01-b_01.json?year=2016")
 $.get("http://10.253.240.27:9080/BusinessPlatform/assets/pc/js/dataset/AddressResource/address.json?zipcode=1234567")
+$.get("http://10.253.240.27:9080/BusinessPlatform/assets/pc/js/dataset/AddressResource/address.json?zipcode=1050014")
+$.get("http://10.253.240.27:9080/BusinessPlatform/assets/pc/js/dataset/AddressResource/address.json?zipcode=4980000")
+$.get("http://10.253.240.27:9080/BusinessPlatform/assets/pc/js/dataset/AddressResource/address.json?zipcode=9013700")
 
 
----‚±‚±‚©‚ç
+###SOAP###
+http://nd-017.gao.in.nttdata.co.jp:9080/BPFWs-ejb/Dvctv901Service
+http://nd-017.gao.in.nttdata.co.jp:9080/BPFWs-ejb/Dvctv901Service?wsdl
+
+
+---ã“ã“ã‹ã‚‰
 http://10.253.240.27:9080/BusinessPlatform/_kenn_b-reg-02-b_init.act
-‚ÅƒTƒuƒ~ƒbƒg‚·‚é‚ÆƒGƒ‰[‚É‚È‚é
+ã§ã‚µãƒ–ãƒŸãƒƒãƒˆã™ã‚‹ã¨ã‚¨ãƒ©ãƒ¼ã«ãªã‚‹
+
+
+http://10.253.240.27:9080/BusinessPlatform/start.act?FW_SCTL=CONDINIT
+http://10.253.240.27:9080/BusinessPlatform/start.act?FW_SCTL=CONDINIT&FW_LANG=EN
