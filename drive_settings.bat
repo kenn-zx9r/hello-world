@@ -1,7 +1,7 @@
 @echo off
 set STR_INPUT=Y
 
-set /P STR_INPUT="�h���C�u���蓖�Ă��s���܂��B��낵���ł����H�iY/N�j[Y]�F "
+set /P STR_INPUT="ドライブ割り当てを行います。よろしいですか？（Y/N）[Y]： "
 IF "%STR_INPUT%" == "y" (
     goto YES
 ) ELSE IF "%STR_INPUT%"=="Y" ( 
@@ -11,14 +11,13 @@ IF "%STR_INPUT%" == "y" (
 )
 
 :YES
-echo �h���C�u���蓖�Ē�...
+echo ドライブ割り当て中...
 net use /delete t:
 net use t: \\999.999.999.999\XXXX /user:XXX\XXXXXX XXXX
-echo �h���C�u���蓖�Ă�����Ɋ������܂����B
-pause
+set /P STR_INPUT="ドライブ割り当てが正常に完了しました。（任意のキーで終了）"
 exit /B 0
 
 :FAILURE
-echo �����𒆎~���܂����B
+echo 処理を中止しました。
 timeout 2
 exit /B 9
